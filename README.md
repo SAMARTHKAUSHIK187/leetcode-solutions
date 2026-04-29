@@ -48,7 +48,7 @@ This repository contains my personal solutions to LeetCode problems, organized b
 | Difficulty | Solved | Total  |
 |------------|--------|--------|
 <!-- STATS_START -->
-| 🟢 Easy    | 50     | 800+   |
+| 🟢 Easy    | 50     | 800+  |
 | 🟡 Medium  | 32   | 1600+  |
 | 🔴 Hard    | 1     | 700+   |
 | **Total**  | **83** | **3100+** |
@@ -184,7 +184,7 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 This repo uses GitHub Actions to automatically update stats and the problem index every day. Here's how it works:
 
 ```
-Schedule (daily 2AM UTC)
+Schedule (peridically as determined in the yml file)
         ↓
 Fetch LeetCode GraphQL API
         ↓
@@ -211,9 +211,7 @@ This is a personal learning repo, but suggestions are welcome!
 
 ---
 
-## 📄 License
 
-This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
