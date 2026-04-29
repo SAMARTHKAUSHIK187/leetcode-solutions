@@ -45,15 +45,12 @@ This repository contains my personal solutions to LeetCode problems, organized b
 
 ## 📈 Progress Tracker
 
-| Difficulty | Solved | Total  |
-|------------|--------|--------|
-<!-- STATS_START -->
-| 🟢 Easy    | 50     | 800+  |
-| 🟡 Medium  | 32   | 1600+  |
-| 🔴 Hard    | 1     | 700+   |
-| **Total**  | **83** | **3100+** |
-<!-- STATS_END -->
-
+| Difficulty | Solved | Total |
+| :--- | :---: | :---: |
+| 🟢 Easy | 50 | 800+ |
+| 🟡 Medium | 32 | 1600+ |
+| 🔴 Hard | 1 | 700+ |
+| **Total** | **83** | **3100+** |
 ---
 
 ## 🗂️ Topics Covered
