@@ -58,10 +58,10 @@ This repository contains my personal solutions to LeetCode problems, organized b
 <!-- TOPICS_START -->
 | # | Topic | Problems Solved |
 |---|-------|-----------------|
-| 01 | [Arrays Hashing](./Arrays-Hashing/) | 11 |
+| 01 | [Arrays Hashing](./Arrays-Hashing/) | 10 |
 | 02 | [Two Pointers](./Two-Pointers/) | 1 |
 | 03 | [Sliding Window](./Sliding-Window/) | 0 |
-| 04 | [Stack](./Stack/) | 1 |
+| 04 | [Stack](./Stack/) | 2 |
 | 05 | [Binary Search](./Binary-Search/) | 0 |
 | 06 | [Linked List](./Linked-List/) | 0 |
 | 07 | [Trees](./Trees/) | 0 |
@@ -162,7 +162,7 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 Easy | String, String Matching | [✔️](./Other/0796-rotate-string/) |
 | 0877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | Array, Math | [✔️](./Arrays-Hashing/0877-stone-game/) |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | String, Stack | [✔️](./Stack/1021-remove-outermost-parentheses/) |
-| 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | Array, Matrix | [✔️](./Arrays-Hashing/1672-richest-customer-wealth/) |
+| 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | String, Stack | [✔️](./Stack/1614-maximum-nesting-depth-of-the-parentheses/) |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | Math, String | [✔️](./Math-Geometry/1903-largest-odd-number-in-string/) |
 | 2078 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | 🟢 Easy | Array, Greedy | [✔️](./Arrays-Hashing/2078-two-furthest-houses-with-different-colors/) |
 | 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | 🟡 Medium | Array, Two Pointers | [✔️](./Arrays-Hashing/2149-rearrange-array-elements-by-sign/) |
