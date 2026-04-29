@@ -10,7 +10,7 @@
 *A structured collection of LeetCode problem solutions with explanations, complexity analysis, and multiple approaches.*
 
 <!-- Replace YOUR_USERNAME with your LeetCode username -->
-![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_USERNAME?theme=dark&font=Nunito&ext=contest)
+![LeetCode Stats](https://leetcard.jacoblin.cool/kaushik_samarth?theme=dark&font=Nunito&ext=contest)
 
 </div>
 
