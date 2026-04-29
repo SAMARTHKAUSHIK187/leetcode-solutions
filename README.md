@@ -4,10 +4,13 @@
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Problems Solved](https://img.shields.io/badge/Solved-200+-brightgreen?style=for-the-badge)
+![Auto-Sync](https://img.shields.io/badge/Stats-Auto--Synced-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 *A structured collection of LeetCode problem solutions with explanations, complexity analysis, and multiple approaches.*
+
+<!-- Replace YOUR_USERNAME with your LeetCode username -->
+![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_USERNAME?theme=dark&font=Nunito&ext=contest)
 
 </div>
 
@@ -35,6 +38,8 @@ This repository contains my personal solutions to LeetCode problems, organized b
 - 🔁 Alternative solutions where applicable
 
 > **Goal:** Solve 500+ problems covering all core DSA topics.
+>
+> 🤖 *Stats and problem index are auto-synced daily via GitHub Actions.*
 
 ---
 
@@ -42,32 +47,36 @@ This repository contains my personal solutions to LeetCode problems, organized b
 
 | Difficulty | Solved | Total  |
 |------------|--------|--------|
-| 🟢 Easy    | 80     | 800+   |
-| 🟡 Medium  | 95     | 1600+  |
-| 🔴 Hard    | 25     | 700+   |
-| **Total**  | **200**| **3100+** |
+<!-- STATS_START -->
+| 🟢 Easy    | 0     | 800+   |
+| 🟡 Medium  | 0     | 1600+  |
+| 🔴 Hard    | 0     | 700+   |
+| **Total**  | **0** | **3100+** |
+<!-- STATS_END -->
 
 ---
 
 ## 🗂️ Topics Covered
 
+<!-- TOPICS_START -->
 | # | Topic | Problems Solved |
-|---|-------|----------------|
-| 01 | [Arrays & Hashing](./Arrays-Hashing/) | 30 |
-| 02 | [Two Pointers](./Two-Pointers/) | 15 |
-| 03 | [Sliding Window](./Sliding-Window/) | 12 |
-| 04 | [Stack](./Stack/) | 10 |
-| 05 | [Binary Search](./Binary-Search/) | 14 |
-| 06 | [Linked List](./Linked-List/) | 16 |
-| 07 | [Trees](./Trees/) | 22 |
-| 08 | [Tries](./Tries/) | 7 |
-| 09 | [Heap / Priority Queue](./Heap/) | 10 |
-| 10 | [Backtracking](./Backtracking/) | 13 |
-| 11 | [Graphs](./Graphs/) | 18 |
-| 12 | [Dynamic Programming](./Dynamic-Programming/) | 25 |
-| 13 | [Greedy](./Greedy/) | 8 |
-| 14 | [Bit Manipulation](./Bit-Manipulation/) | 6 |
-| 15 | [Math & Geometry](./Math-Geometry/) | 7 |
+|---|-------|-----------------|
+| 01 | [Arrays Hashing](./Arrays-Hashing/) | 0 |
+| 02 | [Two Pointers](./Two-Pointers/) | 0 |
+| 03 | [Sliding Window](./Sliding-Window/) | 0 |
+| 04 | [Stack](./Stack/) | 0 |
+| 05 | [Binary Search](./Binary-Search/) | 0 |
+| 06 | [Linked List](./Linked-List/) | 0 |
+| 07 | [Trees](./Trees/) | 0 |
+| 08 | [Tries](./Tries/) | 0 |
+| 09 | [Heap](./Heap/) | 0 |
+| 10 | [Backtracking](./Backtracking/) | 0 |
+| 11 | [Graphs](./Graphs/) | 0 |
+| 12 | [Dynamic Programming](./Dynamic-Programming/) | 0 |
+| 13 | [Greedy](./Greedy/) | 0 |
+| 14 | [Bit Manipulation](./Bit-Manipulation/) | 0 |
+| 15 | [Math Geometry](./Math-Geometry/) | 0 |
+<!-- TOPICS_END -->
 
 ---
 
@@ -75,6 +84,13 @@ This repository contains my personal solutions to LeetCode problems, organized b
 
 ```
 leetcode-solutions/
+│
+├── .github/
+│   └── workflows/
+│       └── update-leetcode.yml   ← GitHub Actions (auto-sync)
+│
+├── scripts/
+│   └── update_stats.py           ← Sync script
 │
 ├── Arrays-Hashing/
 │   ├── 0001-two-sum/
@@ -93,7 +109,8 @@ leetcode-solutions/
 └── README.md
 ```
 
-Each problem folder contains:
+Each problem folder follows this convention:
+
 ```
 0001-two-sum/
 ├── solution.py       # Primary solution
@@ -107,7 +124,7 @@ Each problem folder contains:
 
 **Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/leetcode-solutions.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/leetcode-solutions.git
 cd leetcode-solutions
 ```
 
@@ -119,28 +136,46 @@ ls
 
 **Run a solution:**
 ```bash
-python 0001-two-sum/solution.py
+python 0322-coin-change/solution.py
+```
+
+**Run the sync script locally** (needs `LEETCODE_USERNAME` env var):
+```bash
+pip install requests
+LEETCODE_USERNAME=your_username python scripts/update_stats.py
 ```
 
 ---
 
 ## 📋 Problem Index
 
-> Click on any problem number to jump to its solution.
+> Auto-updated daily via GitHub Actions. Showing last 50 solved problems.
 
+<!-- INDEX_START -->
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Array, Hash Map | [✔️](./Arrays-Hashing/0001-two-sum/) |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | Linked List | [✔️](./Linked-List/0002-add-two-numbers/) |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Sliding Window | [✔️](./Sliding-Window/0003-longest-substring/) |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [✔️](./Binary-Search/0004-median-two-arrays/) |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [✔️](./Linked-List/0021-merge-sorted-lists/) |
-| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | Two Pointers | [✔️](./Two-Pointers/0042-trapping-rain-water/) |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | DP, Greedy | [✔️](./Dynamic-Programming/0053-maximum-subarray/) |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Graphs, BFS/DFS | [✔️](./Graphs/0200-number-of-islands/) |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP | [✔️](./Dynamic-Programming/0322-coin-change/) |
+<!-- INDEX_END -->
 
-*...and 190+ more!*
+---
+
+## 🤖 Auto-Sync Setup
+
+This repo uses GitHub Actions to automatically update stats and the problem index every day. Here's how it works:
+
+```
+Schedule (daily 2AM UTC)
+        ↓
+Fetch LeetCode GraphQL API
+        ↓
+Update README markers
+        ↓
+git commit & push
+```
+
+To set it up in your fork:
+1. Go to **Settings → Secrets → Actions**
+2. Add secret: `LEETCODE_USERNAME` = your LeetCode handle
+3. The workflow in `.github/workflows/update-leetcode.yml` does the rest
 
 ---
 
@@ -165,6 +200,6 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ⭐ **Star this repo if you find it helpful!** ⭐
 
-*Happy Coding! 💻*
+*Stats auto-synced · Last updated by GitHub Actions*
 
 </div>
