@@ -48,10 +48,10 @@ This repository contains my personal solutions to LeetCode problems, organized b
 | Difficulty | Solved | Total  |
 |------------|--------|--------|
 <!-- STATS_START -->
-| 🟢 Easy    | 0     | 800+   |
-| 🟡 Medium  | 0     | 1600+  |
-| 🔴 Hard    | 0     | 700+   |
-| **Total**  | **0** | **3100+** |
+| 🟢 Easy    | 50     | 800+   |
+| 🟡 Medium  | 32   | 1600+  |
+| 🔴 Hard    | 1     | 700+   |
+| **Total**  | **83** | **3100+** |
 <!-- STATS_END -->
 
 ---
@@ -61,10 +61,10 @@ This repository contains my personal solutions to LeetCode problems, organized b
 <!-- TOPICS_START -->
 | # | Topic | Problems Solved |
 |---|-------|-----------------|
-| 01 | [Arrays Hashing](./Arrays-Hashing/) | 0 |
-| 02 | [Two Pointers](./Two-Pointers/) | 0 |
+| 01 | [Arrays Hashing](./Arrays-Hashing/) | 11 |
+| 02 | [Two Pointers](./Two-Pointers/) | 1 |
 | 03 | [Sliding Window](./Sliding-Window/) | 0 |
-| 04 | [Stack](./Stack/) | 0 |
+| 04 | [Stack](./Stack/) | 1 |
 | 05 | [Binary Search](./Binary-Search/) | 0 |
 | 06 | [Linked List](./Linked-List/) | 0 |
 | 07 | [Trees](./Trees/) | 0 |
@@ -75,7 +75,8 @@ This repository contains my personal solutions to LeetCode problems, organized b
 | 12 | [Dynamic Programming](./Dynamic-Programming/) | 0 |
 | 13 | [Greedy](./Greedy/) | 0 |
 | 14 | [Bit Manipulation](./Bit-Manipulation/) | 0 |
-| 15 | [Math Geometry](./Math-Geometry/) | 0 |
+| 15 | [Math Geometry](./Math-Geometry/) | 1 |
+| 16 | [Other](./Other/) | 6 |
 <!-- TOPICS_END -->
 
 ---
@@ -154,6 +155,26 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 <!-- INDEX_START -->
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
+| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/0034-find-first-and-last-position-of-element-in-sorted-array/) |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | Array, Divide And Conquer | [✔️](./Arrays-Hashing/0053-maximum-subarray/) |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Array, Dynamic Programming | [✔️](./Arrays-Hashing/0121-best-time-to-buy-and-sell-stock/) |
+| 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers, String | [✔️](./Two-Pointers/0151-reverse-words-in-a-string/) |
+| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/0162-find-peak-element/) |
+| 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | [✔️](./Arrays-Hashing/0205-isomorphic-strings/) |
+| 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | 🟡 Medium | Hash Table, String | [✔️](./Arrays-Hashing/0451-sort-characters-by-frequency/) |
+| 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 Easy | String, String Matching | [✔️](./Other/0796-rotate-string/) |
+| 0877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | Array, Math | [✔️](./Arrays-Hashing/0877-stone-game/) |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | String, Stack | [✔️](./Stack/1021-remove-outermost-parentheses/) |
+| 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 Easy | Array, Matrix | [✔️](./Arrays-Hashing/1672-richest-customer-wealth/) |
+| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | Math, String | [✔️](./Math-Geometry/1903-largest-odd-number-in-string/) |
+| 2078 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | 🟢 Easy | Array, Greedy | [✔️](./Arrays-Hashing/2078-two-furthest-houses-with-different-colors/) |
+| 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | 🟡 Medium | Array, Two Pointers | [✔️](./Arrays-Hashing/2149-rearrange-array-elements-by-sign/) |
+| 2615 | [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | 🟡 Medium | Array, Hash Table | [✔️](./Arrays-Hashing/2615-sum-of-distances/) |
+| 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | 🟢 Easy | String, Counting | [✔️](./Other/2833-furthest-point-from-origin/) |
+| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | — | [✔️](./Other/3908-valid-digit-number/) |
+| 3909 | [Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/) | 🟡 Medium | — | [✔️](./Other/3909-compare-sums-of-bitonic-parts/) |
+| 3912 | [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/) | 🟢 Easy | — | [✔️](./Other/3912-valid-elements-in-an-array/) |
+| 3914 | [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/) | 🟡 Medium | — | [✔️](./Other/3914-minimum-operations-to-make-array-non-decreasing/) |
 <!-- INDEX_END -->
 
 ---
