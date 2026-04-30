@@ -206,11 +206,6 @@ This is a personal learning repo, but suggestions are welcome!
 3. Commit your changes (`git commit -m 'Add alternate solution for #123'`)
 4. Push and open a Pull Request
 
----
-
-
-
----
 
 <div align="center">
 
