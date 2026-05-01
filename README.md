@@ -58,7 +58,7 @@ This repository contains my personal solutions to LeetCode problems, organized b
 <!-- TOPICS_START -->
 | # | Topic | Problems Solved |
 |---|-------|-----------------|
-| 01 | [Arrays Hashing](./Arrays-Hashing/) | 9 |
+| 01 | [Arrays Hashing](./Arrays-Hashing/) | 8 |
 | 02 | [Two Pointers](./Two-Pointers/) | 1 |
 | 03 | [Sliding Window](./Sliding-Window/) | 0 |
 | 04 | [Stack](./Stack/) | 2 |
@@ -153,7 +153,6 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/0034-find-first-and-last-position-of-element-in-sorted-array/) |
-| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | Array, Divide And Conquer | [✔️](./Arrays-Hashing/0053-maximum-subarray/) |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Array, Dynamic Programming | [✔️](./Arrays-Hashing/0121-best-time-to-buy-and-sell-stock/) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers, String | [✔️](./Two-Pointers/0151-reverse-words-in-a-string/) |
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/0162-find-peak-element/) |
