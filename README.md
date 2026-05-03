@@ -167,10 +167,10 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | String, Stack | [✔️](./Stack/1614-maximum-nesting-depth-of-the-parentheses/) |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | Math, String | [✔️](./Math-Geometry/1903-largest-odd-number-in-string/) |
 | 1922 | [Count Good Numbers](https://leetcode.com/problems/count-good-numbers/) | 🟡 Medium | Math, Recursion | [✔️](./Math-Geometry/1922-count-good-numbers/) |
-| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | — | [✔️](./Other/3908-valid-digit-number/) |
-| 3909 | [Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/) | 🟡 Medium | — | [✔️](./Other/3909-compare-sums-of-bitonic-parts/) |
 | 3912 | [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/) | 🟢 Easy | — | [✔️](./Other/3912-valid-elements-in-an-array/) |
 | 3914 | [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/) | 🟡 Medium | — | [✔️](./Other/3914-minimum-operations-to-make-array-non-decreasing/) |
+| 3917 | [Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | 🟢 Easy | — | [✔️](./Other/3917-count-indices-with-opposite-parity/) |
+| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | — | [✔️](./Other/3918-sum-of-primes-between-number-and-its-reverse/) |
 <!-- INDEX_END -->
 
 ---
