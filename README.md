@@ -58,12 +58,12 @@ This repository contains my personal solutions to LeetCode problems, organized b
 <!-- TOPICS_START -->
 | # | Topic | Problems Solved |
 |---|-------|-----------------|
-| 01 | [Arrays Hashing](./Arrays-Hashing/) | 5 |
+| 01 | [Arrays Hashing](./Arrays-Hashing/) | 6 |
 | 02 | [Two Pointers](./Two-Pointers/) | 1 |
 | 03 | [Sliding Window](./Sliding-Window/) | 0 |
 | 04 | [Stack](./Stack/) | 2 |
 | 05 | [Binary Search](./Binary-Search/) | 0 |
-| 06 | [Linked List](./Linked-List/) | 3 |
+| 06 | [Linked List](./Linked-List/) | 4 |
 | 07 | [Trees](./Trees/) | 0 |
 | 08 | [Tries](./Tries/) | 0 |
 | 09 | [Heap](./Heap/) | 0 |
@@ -73,7 +73,7 @@ This repository contains my personal solutions to LeetCode problems, organized b
 | 13 | [Greedy](./Greedy/) | 0 |
 | 14 | [Bit Manipulation](./Bit-Manipulation/) | 0 |
 | 15 | [Math Geometry](./Math-Geometry/) | 3 |
-| 16 | [Other](./Other/) | 5 |
+| 16 | [Other](./Other/) | 3 |
 <!-- TOPICS_END -->
 
 ---
@@ -152,7 +152,9 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 <!-- INDEX_START -->
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
+| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List, Recursion | [✔️](./Linked-List/0025-reverse-nodes-in-k-group/) |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/0034-find-first-and-last-position-of-element-in-sorted-array/) |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Easy | Hash Table, Linked List | [✔️](./Arrays-Hashing/0141-linked-list-cycle/) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers, String | [✔️](./Two-Pointers/0151-reverse-words-in-a-string/) |
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/0162-find-peak-element/) |
 | 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | Hash Table, String | [✔️](./Arrays-Hashing/0205-isomorphic-strings/) |
@@ -167,8 +169,6 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | String, Stack | [✔️](./Stack/1614-maximum-nesting-depth-of-the-parentheses/) |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | Math, String | [✔️](./Math-Geometry/1903-largest-odd-number-in-string/) |
 | 1922 | [Count Good Numbers](https://leetcode.com/problems/count-good-numbers/) | 🟡 Medium | Math, Recursion | [✔️](./Math-Geometry/1922-count-good-numbers/) |
-| 3912 | [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/) | 🟢 Easy | — | [✔️](./Other/3912-valid-elements-in-an-array/) |
-| 3914 | [Minimum Operations to Make Array Non Decreasing](https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/) | 🟡 Medium | — | [✔️](./Other/3914-minimum-operations-to-make-array-non-decreasing/) |
 | 3917 | [Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | 🟢 Easy | — | [✔️](./Other/3917-count-indices-with-opposite-parity/) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | — | [✔️](./Other/3918-sum-of-primes-between-number-and-its-reverse/) |
 <!-- INDEX_END -->
