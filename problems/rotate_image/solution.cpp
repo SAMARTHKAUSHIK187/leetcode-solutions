@@ -1,7 +1,6 @@
 class Solution {
-
 private:
-    void transpose(vector<vector<int>>& matrix, int r, int c){
+    void transpose(vector<vector<int>>& matrix, int c, int r){
         for(int i = 0; i < r; i++){
             for(int j = i + 1; j < c; j++){
                 swap(matrix[i][j], matrix[j][i]);
@@ -9,24 +8,18 @@ private:
         }
     }
 
-    void reverseRows(vector<vector<int>>& matrix, int r, int c){
-        for(int i = 0; i < r; i++){
-
-            int re = c - 1 ;
-            int j = 0;
-          
-            while(re > j){
-                swap(matrix[i][j++], matrix[i][re--]);
+    void reverseRows(vector<vector<int>>& matrix){
+        int n = matrix.size();
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n/2; j++){
+                swap(matrix[i][j], matrix[i][n - 1 - j]);
             }
-           }
         }
+    }
 public:
     void rotate(vector<vector<int>>& matrix) {
-        int r = matrix.size();
-        int c = matrix[0].size();
-
-        transpose(matrix, r, c);
-
-        reverseRows(matrix, r, c);
+        int n = matrix.size();
+        transpose(matrix, n, n);
+        reverseRows(matrix);        
     }
 };
