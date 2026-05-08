@@ -152,6 +152,7 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 <!-- INDEX_START -->
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | Linked List, Math | [✔️](./Linked-List/0002-add-two-numbers/) |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | Linked List, Two Pointers | [✔️](./Linked-List/0019-remove-nth-node-from-end-of-list/) |
 | 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List, Recursion | [✔️](./Linked-List/0025-reverse-nodes-in-k-group/) |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array, Math | [✔️](./Arrays-Hashing/0048-rotate-image/) |
@@ -166,7 +167,6 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | 0396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Array, Math | [✔️](./Arrays-Hashing/0396-rotate-function/) |
 | 0788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | 🟡 Medium | Math, Dynamic Programming | [✔️](./Math-Geometry/0788-rotated-digits/) |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 Easy | String, String Matching | [✔️](./Other/0796-rotate-string/) |
-| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 Easy | Linked List, Two Pointers | [✔️](./Linked-List/0876-middle-of-the-linked-list/) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array, Matrix | [✔️](./Arrays-Hashing/1886-determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | 🟡 Medium | Linked List, Two Pointers | [✔️](./Linked-List/2095-delete-the-middle-node-of-a-linked-list/) |
 | 3917 | [Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | 🟢 Easy | — | [✔️](./Other/3917-count-indices-with-opposite-parity/) |
