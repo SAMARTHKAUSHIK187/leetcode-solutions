@@ -58,12 +58,12 @@ This repository contains my personal solutions to LeetCode problems, organized b
 <!-- TOPICS_START -->
 | # | Topic | Problems Solved |
 |---|-------|-----------------|
-| 01 | [Arrays Hashing](./Arrays-Hashing/) | 14 |
+| 01 | [Arrays Hashing](./Arrays-Hashing/) | 13 |
 | 02 | [Two Pointers](./Two-Pointers/) | 0 |
 | 03 | [Sliding Window](./Sliding-Window/) | 0 |
 | 04 | [Stack](./Stack/) | 1 |
-| 05 | [Binary Search](./Binary-Search/) | 0 |
-| 06 | [Linked List](./Linked-List/) | 3 |
+| 05 | [Binary Search](./Binary-Search/) | 1 |
+| 06 | [Linked List](./Linked-List/) | 0 |
 | 07 | [Trees](./Trees/) | 0 |
 | 08 | [Tries](./Tries/) | 0 |
 | 09 | [Heap](./Heap/) | 0 |
@@ -73,7 +73,7 @@ This repository contains my personal solutions to LeetCode problems, organized b
 | 13 | [Greedy](./Greedy/) | 0 |
 | 14 | [Bit Manipulation](./Bit-Manipulation/) | 0 |
 | 15 | [Math Geometry](./Math-Geometry/) | 1 |
-| 16 | [Other](./Other/) | 0 |
+| 16 | [Other](./Other/) | 2 |
 <!-- TOPICS_END -->
 
 ---
@@ -153,25 +153,24 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Hash Table, String | [✔️](./Arrays-Hashing/0003-longest-substring-without-repeating-characters/) |
-| 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | Array, Two Pointers | [✔️](./Arrays-Hashing/0011-container-with-most-water/) |
-| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List, Recursion | [✔️](./Linked-List/0021-merge-two-sorted-lists/) |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | Array, Two Pointers | [✔️](./Arrays-Hashing/0042-trapping-rain-water/) |
-| 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | Array, Stack | [✔️](./Arrays-Hashing/0084-largest-rectangle-in-histogram/) |
 | 0085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | Array, Dynamic Programming | [✔️](./Arrays-Hashing/0085-maximal-rectangle/) |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | String, Dynamic Programming | [✔️](./Dynamic-Programming/0131-palindrome-partitioning/) |
-| 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 Easy | Linked List, Recursion | [✔️](./Linked-List/0203-remove-linked-list-elements/) |
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium | String, Stack | [✔️](./Stack/0402-remove-k-digits/) |
+| 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 Medium | Hash Table, String | [✔️](./Arrays-Hashing/0424-longest-repeating-character-replacement/) |
+| 0904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | 🟡 Medium | Array, Hash Table | [✔️](./Arrays-Hashing/0904-fruit-into-baskets/) |
 | 0907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | 🟡 Medium | Array, Dynamic Programming | [✔️](./Arrays-Hashing/0907-sum-of-subarray-minimums/) |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/1004-max-consecutive-ones-iii/) |
 | 1441 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) | 🟡 Medium | Array, Stack | [✔️](./Arrays-Hashing/1441-build-an-array-with-stack-operations/) |
+| 2024 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | 🟡 Medium | String, Binary Search | [✔️](./Binary-Search/2024-maximize-the-confusion-of-an-exam/) |
 | 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | 🟡 Medium | Array, Greedy | [✔️](./Arrays-Hashing/2126-destroying-asteroids/) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | 🟢 Easy | Array, Greedy | [✔️](./Arrays-Hashing/2144-minimum-cost-of-buying-candies-with-discount/) |
 | 2517 | [Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/2517-maximum-tastiness-of-candy-basket/) |
-| 2816 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | 🟡 Medium | Linked List, Math | [✔️](./Linked-List/2816-double-a-number-represented-as-a-linked-list/) |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Hash Table, String | [✔️](./Arrays-Hashing/3120-count-the-number-of-special-characters-i/) |
-| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | Hash Table, String | [✔️](./Arrays-Hashing/3121-count-the-number-of-special-characters-ii/) |
-| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Array, Math | [✔️](./Arrays-Hashing/3300-minimum-element-after-replacement-with-digit-sum/) |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array, Prefix Sum | [✔️](./Arrays-Hashing/2574-left-and-right-sum-differences/) |
 | 3751 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | 🟡 Medium | Math, Dynamic Programming | [✔️](./Math-Geometry/3751-total-waviness-of-numbers-in-range-i/) |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Hash Table, Math | [✔️](./Arrays-Hashing/3945-digit-frequency-score/) |
+| 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | — | [✔️](./Other/3950-exactly-one-consecutive-set-bits-pair/) |
+| 3952 | [Maximum Total Value of Covered Indices](https://leetcode.com/problems/maximum-total-value-of-covered-indices/) | 🟡 Medium | — | [✔️](./Other/3952-maximum-total-value-of-covered-indices/) |
 <!-- INDEX_END -->
 
 ---
