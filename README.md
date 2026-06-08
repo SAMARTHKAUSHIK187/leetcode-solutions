@@ -154,6 +154,7 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 |---|---------|------------|--------|----------|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Hash Table, String | [✔️](./Arrays-Hashing/0003-longest-substring-without-repeating-characters/) |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | Array, Two Pointers | [✔️](./Arrays-Hashing/0042-trapping-rain-water/) |
+| 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Hard | Hash Table, String | [✔️](./Arrays-Hashing/0076-minimum-window-substring/) |
 | 0085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | Array, Dynamic Programming | [✔️](./Arrays-Hashing/0085-maximal-rectangle/) |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | String, Dynamic Programming | [✔️](./Dynamic-Programming/0131-palindrome-partitioning/) |
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium | String, Stack | [✔️](./Stack/0402-remove-k-digits/) |
@@ -162,8 +163,7 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/1004-max-consecutive-ones-iii/) |
 | 1441 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) | 🟡 Medium | Array, Stack | [✔️](./Arrays-Hashing/1441-build-an-array-with-stack-operations/) |
 | 2024 | [Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | 🟡 Medium | String, Binary Search | [✔️](./Binary-Search/2024-maximize-the-confusion-of-an-exam/) |
-| 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | 🟡 Medium | Array, Greedy | [✔️](./Arrays-Hashing/2126-destroying-asteroids/) |
-| 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | 🟢 Easy | Array, Greedy | [✔️](./Arrays-Hashing/2144-minimum-cost-of-buying-candies-with-discount/) |
+| 2161 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | 🟡 Medium | Array, Two Pointers | [✔️](./Arrays-Hashing/2161-partition-array-according-to-given-pivot/) |
 | 2517 | [Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/) | 🟡 Medium | Array, Binary Search | [✔️](./Arrays-Hashing/2517-maximum-tastiness-of-candy-basket/) |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array, Prefix Sum | [✔️](./Arrays-Hashing/2574-left-and-right-sum-differences/) |
 | 3751 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | 🟡 Medium | Math, Dynamic Programming | [✔️](./Math-Geometry/3751-total-waviness-of-numbers-in-range-i/) |
