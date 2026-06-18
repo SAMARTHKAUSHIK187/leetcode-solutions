@@ -64,16 +64,16 @@ This repository contains my personal solutions to LeetCode problems, organized b
 | 04 | [Stack](./Stack/) | 0 |
 | 05 | [Binary Search](./Binary-Search/) | 0 |
 | 06 | [Linked List](./Linked-List/) | 2 |
-| 07 | [Trees](./Trees/) | 7 |
+| 07 | [Trees](./Trees/) | 6 |
 | 08 | [Tries](./Tries/) | 0 |
 | 09 | [Heap](./Heap/) | 0 |
 | 10 | [Backtracking](./Backtracking/) | 1 |
 | 11 | [Graphs](./Graphs/) | 0 |
-| 12 | [Dynamic Programming](./Dynamic-Programming/) | 1 |
+| 12 | [Dynamic Programming](./Dynamic-Programming/) | 0 |
 | 13 | [Greedy](./Greedy/) | 0 |
 | 14 | [Bit Manipulation](./Bit-Manipulation/) | 0 |
-| 15 | [Math Geometry](./Math-Geometry/) | 0 |
-| 16 | [Other](./Other/) | 4 |
+| 15 | [Math Geometry](./Math-Geometry/) | 1 |
+| 16 | [Other](./Other/) | 5 |
 <!-- TOPICS_END -->
 
 ---
@@ -152,22 +152,22 @@ LEETCODE_USERNAME=your_username python scripts/update_stats.py
 <!-- INDEX_START -->
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
-| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | Tree, Depth First Search | [✔️](./Trees/0100-same-tree/) |
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | 🟢 Easy | Tree, Depth First Search | [✔️](./Trees/0101-symmetric-tree/) |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 Medium | Tree, Breadth First Search | [✔️](./Trees/0103-binary-tree-zigzag-level-order-traversal/) |
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Array, Hash Table | [✔️](./Arrays-Hashing/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) |
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | Array, Hash Table | [✔️](./Arrays-Hashing/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) |
-| 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree, Depth First Search | [✔️](./Trees/0110-balanced-binary-tree/) |
-| 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | Dynamic Programming, Tree | [✔️](./Dynamic-Programming/0124-binary-tree-maximum-path-sum/) |
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree, Depth First Search | [✔️](./Trees/0199-binary-tree-right-side-view/) |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium | Tree, Depth First Search | [✔️](./Trees/0236-lowest-common-ancestor-of-a-binary-tree/) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | 🟢 Easy | String, Backtracking | [✔️](./Backtracking/0257-binary-tree-paths/) |
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree, Depth First Search | [✔️](./Trees/0662-maximum-width-of-binary-tree/) |
+| 0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | 🟢 Easy | Tree, Binary Search Tree | [✔️](./Trees/0700-search-in-a-binary-search-tree/) |
 | 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | 🔴 Hard | Hash Table, Tree | [✔️](./Arrays-Hashing/0987-vertical-order-traversal-of-a-binary-tree/) |
+| 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [✔️](./Math-Geometry/1344-angle-between-hands-of-a-clock/) |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | 🟡 Medium | Linked List, Two Pointers | [✔️](./Linked-List/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List, Two Pointers | [✔️](./Linked-List/2130-maximum-twin-sum-of-a-linked-list/) |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | 🟡 Medium | Hash Table, Tree | [✔️](./Arrays-Hashing/2385-amount-of-time-for-binary-tree-to-be-infected/) |
 | 3612 | [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | 🟡 Medium | String, Simulation | [✔️](./Other/3612-process-string-with-special-operations-i/) |
+| 3614 | [Process String with Special Operations II](https://leetcode.com/problems/process-string-with-special-operations-ii/) | 🔴 Hard | String, Simulation | [✔️](./Other/3614-process-string-with-special-operations-ii/) |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | Array, String | [✔️](./Arrays-Hashing/3838-weighted-word-mapping/) |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | — | [✔️](./Other/3959-check-good-integer/) |
 | 3960 | [Frequency Balance Subarray](https://leetcode.com/problems/frequency-balance-subarray/) | 🟡 Medium | — | [✔️](./Other/3960-frequency-balance-subarray/) |
